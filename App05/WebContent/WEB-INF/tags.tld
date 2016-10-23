@@ -1,0 +1,14 @@
+<tag-lib>
+	<jsp-version>2.1</jsp-version>
+	<tlib-version>1.1</tlib-version>
+	<tag>
+		<description>This tag is used to get Id of session</description>
+		<name>sessionId</name>
+		<tagclass>com.lara.SessionIdTag</tagclass>
+	</tag>
+	<tag>
+		<description>This tag is used to get Id of session</description>
+		<name>date</name>
+		<tagclass>com.lara.TodaysDateTag</tagclass>
+	</tag>
+</tag-lib>

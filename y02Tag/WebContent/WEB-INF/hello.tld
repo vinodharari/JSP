@@ -1,0 +1,25 @@
+<taglib>
+	<tlib-version>1.0</tlib-version>
+	<jsp-version>2.0</jsp-version>
+	<url>http://vinodjain.com/tags</url>
+	
+	<tag>
+		<name>helloTag</name>
+		<tag-class>com.vinod.HelloTagHandler</tag-class>
+		<description>This is my first action tag</description>
+		<body-content></body-content>
+		<attribute>
+			<name>id</name>
+			<type>java.lang.Integer</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>message</name>
+			<type>java.lang.String</type>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+	
+</taglib>

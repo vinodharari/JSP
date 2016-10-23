@@ -1,0 +1,66 @@
+<tag-lib>
+	<jsp-version>2.1</jsp-version>
+	<tlib-version>1.1</tlib-version>
+	<tag>
+		<name>tag1</name>
+		<tagclass>com.lara.Tag1</tagclass>
+		<!-- <bodycontent>empty</bodycontent>  -->
+		<!-- <bodycontent>tagdependent</bodycontent>  -->
+		<!-- <bodycontent>scriptless</bodycontent>  -->
+		<bodycontent>jsp</bodycontent> 
+	</tag>
+	
+	<tag>
+		<name>tag2</name>
+		<tagclass>com.lara.Tag2</tagclass>
+		<attribute>
+			<name>param1</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<name>param2</name>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>tag3</name>
+		<tagclass>com.lara.Tag3</tagclass>
+	</tag>
+	
+	<tag>
+		<name>tag4</name>
+		<tagclass>com.lara.Tag4</tagclass>
+	</tag>
+	
+	<tag>
+		<name>bTag</name>
+		<tagclass>com.lara.BodyTagHandler</tagclass>
+	</tag>
+	
+	<tag>
+		<name>parent</name>
+		<tagclass>com.lara.ParentTag</tagclass>
+		<attribute>
+			<name>country</name>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>child</name>
+		<tagclass>com.lara.ChildTag</tagclass>
+		<attribute>
+			<name>country</name>
+		</attribute>
+	</tag>
+	
+	<tag>
+		<name>myTag</name>
+		<tagclass>com.lara.TagExtraInfo</tagclass>
+	</tag>
+	
+	<tag>
+		<name>test</name>
+		<tagclass>com.lara.TestTag</tagclass>
+	</tag>
+</tag-lib>
